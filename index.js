@@ -4,7 +4,25 @@ module.exports = application;
 
 if (require.main === module) {
   // Run the application
-  const config = {websocket: {port: 3000}};
+  const config = {
+    rest: {
+      port: 3000,
+      host: process.env.HOST,
+      // The `gracePeriodForClose` provides a graceful close for http/https
+      // servers with keep-alive clients. The default value is `Infinity`
+      // (don't force-close). If you want to immediately destroy all sockets
+      // upon stop, set its value to `0`.
+      // See https://www.npmjs.com/package/stoppable
+      gracePeriodForClose: 5000, // 5 seconds
+      openApiSpec: {
+        // useful when used with OpenAPI-to-GraphQL to locate your application
+        setServersFromRequest: true,
+      },
+    },
+    websocket: {
+      port: 5000
+    }
+  };
   application.main(config).catch(err => {
     console.error('Cannot start the application.', err);
     process.exit(1);

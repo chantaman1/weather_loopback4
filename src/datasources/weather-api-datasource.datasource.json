@@ -1,0 +1,19 @@
+{
+   "name": "weatherAPIDatasource",
+   "connector": "rest",
+   "options": {
+      "headers": {
+          "accept": "application/json",
+          "content-type": "application/json"
+      }
+   },
+   "operations": [{
+      "template": {
+         "method": "GET",
+         "url": "http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&units=metric&appid=83eaf2b6f52aaf41109256e9d98ea265"
+      },
+      "functions": {
+         "getrestdata": ["lat", "lon"]
+      }
+   }]
+}

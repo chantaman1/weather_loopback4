@@ -1,1 +1,1 @@
-export * from './websocket.controller';
+export * from './weather-api.controller';
