@@ -1,12 +1,8 @@
 import {inject} from '@loopback/context';
 import {Socket} from 'socket.io';
-import {ws} from '../decorators/websocket.decorator';
+import {ws} from '../websockets/decorators/websocket.decorator';
 import {repository} from '@loopback/repository';
 
-
-/**
- * A demo controller for websocket
- */
 export class WebSocketController {
 
   constructor(
@@ -18,6 +14,11 @@ export class WebSocketController {
   async connect(socket: Socket){
     console.log('Client connected: %s', this.socket.id);
     await this.socket.join('weather_room');
+    await this.socket.emit('weather', 'this.updateWeather()');
+
+    setInterval( async () => {
+      await this.socket.emit('weather', 'this.updateWeather()');
+    }, 10000);
   };
 
   @ws.subscribe(/.+/)

@@ -1773,6 +1773,34 @@
         "version": "96058d49c9512894ded2d7d300246296b2fa2db603c1470221aa33b387d71fe7",
         "signature": "400a610a3cb00821bbdf20948178587321e0f0cd9874181bd508ef74d367d87e"
       },
+      "./src/controllers/websocket.controller.ts": {
+        "version": "86dad961e64dfaa6fd88bce8e1d70a51b37ac6754986d64e7f44b449b01b2a89",
+        "signature": "5c451e26f627eb0d9d7dc1dda7d6201a6946c6d6fb48e2934382ed8aa1f17d8a"
+      },
+      "./src/websockets/websocket-controller-factory.ts": {
+        "version": "b87ab17ec1e598ee5111a1c74902b4a5f22648f595b1848861744a5e11d660f2",
+        "signature": "54535e61302a533f2371be2e7bf8735d70732dd161cc764a21026fd7411558b3"
+      },
+      "./src/websockets/websocket.server.ts": {
+        "version": "66105a698cf62dca008654c628ff8942bba76be35169944af66f574657274eb1",
+        "signature": "c4abab8f25b514aba733a4fa7117f6b92f1fedb2b6439c6ff86a7dddef54fcc1"
+      },
+      "./src/websockets/websocket.application.ts": {
+        "version": "d0393f3598e5db738da1374adabd7c9f6f7890455f300e16912de1644a6e2cd9",
+        "signature": "b41edfd80661c8bcf3e91b7203e8c7375829d274d79d920f3c5b9bffa9f22af7"
+      },
+      "./src/websockets/websocket.booter.ts": {
+        "version": "89ab069c54a694fc81957f5c84e745a1cc9d1dc259111f4f23657f72f900938b",
+        "signature": "68c6793d042f17286e1eec053c8cc0a66a8cac59ce44e7386c5b7cfa782da34a"
+      },
+      "./src/application.ts": {
+        "version": "aea0d6f456eb785ab91bafba1ff03995ca92ed84f4f55ed4f84d65305b45b721",
+        "signature": "c82f76d68e350460a352cf194c96250ea3bd8ebccfe40d4cfa38d0c56503542d"
+      },
+      "./src/index.ts": {
+        "version": "e2e4bb0e9d97c103cad25de79ae02041cf5f40e52e00898dd1ae301d7ef2374f",
+        "signature": "53495158156c6bfb731705114061a3203cf4cea2a668681fc77a3a71ef43c228"
+      },
       "./src/models/latitude-longitude.model.ts": {
         "version": "84b56f6f6a9b0197b1100d2b73ae5cf347b66865f642397d20f0eeb06c0023f7",
         "signature": "642b3deed3985ddaf693958ce7bf00244fbb7e1b3eb192d023da163ea1542283"
@@ -1827,45 +1855,13 @@
         "version": "b2337f47d289c07be37ff78f61aeb7b2007ec396a1da3067d9ba43ebe9e2bad7",
         "signature": "38daf9be614099594269636df5042089fcb7888b005cd97ca040f226c9bf82ee"
       },
-      "./src/websockets/controllers/websocket.controller.ts": {
-        "version": "fa8004d64d3fec37321ee8dbf03c596d650aee6c4eb56d4ff47b0e3e803c72b5",
-        "signature": "373572cc738cfbcfa71601e7634c14baa84361b38312118bd961ebae20fcfa18"
-      },
-      "./src/websockets/controllers/index.ts": {
-        "version": "953f812dd1906f3bf6495e139a1598863bdfe4f5fbbe46bbb69fca67c21024a0",
-        "signature": "953f812dd1906f3bf6495e139a1598863bdfe4f5fbbe46bbb69fca67c21024a0"
-      },
-      "./src/websockets/websocket-controller-factory.ts": {
-        "version": "b87ab17ec1e598ee5111a1c74902b4a5f22648f595b1848861744a5e11d660f2",
-        "signature": "54535e61302a533f2371be2e7bf8735d70732dd161cc764a21026fd7411558b3"
-      },
-      "./src/websockets/websocket.server.ts": {
-        "version": "66105a698cf62dca008654c628ff8942bba76be35169944af66f574657274eb1",
-        "signature": "c4abab8f25b514aba733a4fa7117f6b92f1fedb2b6439c6ff86a7dddef54fcc1"
-      },
-      "./src/websockets/websocket.application.ts": {
-        "version": "9303081d92bfe9a3bd48d36078affe16c7e0ec341472798ee980d2665327e5cf",
-        "signature": "846ee8af4d69e3d13854f58596e14910ca17f8523e3b662a885d9cc858a6630d"
-      },
-      "./src/websockets/websocket.booter.ts": {
-        "version": "89ab069c54a694fc81957f5c84e745a1cc9d1dc259111f4f23657f72f900938b",
-        "signature": "68c6793d042f17286e1eec053c8cc0a66a8cac59ce44e7386c5b7cfa782da34a"
-      },
-      "./src/application.ts": {
-        "version": "aea0d6f456eb785ab91bafba1ff03995ca92ed84f4f55ed4f84d65305b45b721",
-        "signature": "c82f76d68e350460a352cf194c96250ea3bd8ebccfe40d4cfa38d0c56503542d"
-      },
-      "./src/index.ts": {
-        "version": "e2e4bb0e9d97c103cad25de79ae02041cf5f40e52e00898dd1ae301d7ef2374f",
-        "signature": "53495158156c6bfb731705114061a3203cf4cea2a668681fc77a3a71ef43c228"
-      },
       "./src/controllers/weather-api.controller.ts": {
-        "version": "85e6b3df11b7e69c1081bccd93ffbcdb497732a856c7cb9aa9df8130b2c06cd3",
-        "signature": "fab97dd689dba1e45b5abd13bbc0be32c9cc3c42a89897f0f7659c7cede2bd75"
+        "version": "eca06e3b5859c354c67579a1300fd84547368bcc40bfce5465dc58e1f24b83f3",
+        "signature": "49e5eb7d8166528ce2fa2ae6bb506b05e2075bb4b9a10f742bd7119e99d57aa9"
       },
       "./src/controllers/index.ts": {
-        "version": "f92daba6ce1e0a669a96725eb33b0213d236ba3d540d45e0de307841305eef87",
-        "signature": "f92daba6ce1e0a669a96725eb33b0213d236ba3d540d45e0de307841305eef87"
+        "version": "f7c8008f0d9b3b8961762e5c5a38d70e5ccc2fb571cdc8ab4d03d74b17c878a2",
+        "signature": "f7c8008f0d9b3b8961762e5c5a38d70e5ccc2fb571cdc8ab4d03d74b17c878a2"
       },
       "./src/observers/redis-data-filler.observer.ts": {
         "version": "470be7032eb0a3d9054d816777cf90adaa23e6234e6574c53ee3e2ce4e14203e",
@@ -1886,6 +1882,10 @@
       "./node_modules/@types/debug/index.d.ts": {
         "version": "3cf5f191d75bbe7c92f921e5ae12004ac672266e2be2ece69f40b1d6b1b678f9",
         "signature": "3cf5f191d75bbe7c92f921e5ae12004ac672266e2be2ece69f40b1d6b1b678f9"
+      },
+      "./node_modules/@types/engine.io/index.d.ts": {
+        "version": "2bc5a885dc91b4006192c477dfae4f2856e5809c6ffbf62cc242ac010f15ab51",
+        "signature": "2bc5a885dc91b4006192c477dfae4f2856e5809c6ffbf62cc242ac010f15ab51"
       },
       "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
         "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
@@ -1979,6 +1979,10 @@
         "version": "7255e9138b74f3fe8a9910bf3e711d43be1399ab8a0554bad34dc766511059be",
         "signature": "7255e9138b74f3fe8a9910bf3e711d43be1399ab8a0554bad34dc766511059be"
       },
+      "./node_modules/@types/socket.io-parser/index.d.ts": {
+        "version": "8487571622eefb9421499874014fa1cc0898bd15724565002a27b67d8e285072",
+        "signature": "8487571622eefb9421499874014fa1cc0898bd15724565002a27b67d8e285072"
+      },
       "./node_modules/@types/superagent/index.d.ts": {
         "version": "dc5ff565b22046c7e0fe8d7dd3bbc1fa6926426a048975c6ef2856c846d67f6c",
         "signature": "dc5ff565b22046c7e0fe8d7dd3bbc1fa6926426a048975c6ef2856c846d67f6c"
@@ -2011,6 +2015,7 @@
       "declaration": true,
       "outDir": "./dist",
       "rootDir": "./src",
+      "noImplicitAny": false,
       "project": "./tsconfig.json",
       "configFilePath": "./tsconfig.json"
     },
@@ -5088,6 +5093,67 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/controllers/websocket.controller.ts": [
+        "./node_modules/@loopback/context/index.d.ts",
+        "./node_modules/@types/socket.io/index.d.ts",
+        "./src/websockets/decorators/websocket.decorator.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/websockets/websocket-controller-factory.ts": [
+        "./node_modules/@loopback/context/index.d.ts",
+        "./node_modules/@types/socket.io/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/websockets/websocket.server.ts": [
+        "./node_modules/@loopback/context/index.d.ts",
+        "./node_modules/@loopback/http-server/index.d.ts",
+        "./node_modules/@types/socket.io/index.d.ts",
+        "./src/websockets/decorators/websocket.decorator.ts",
+        "./src/websockets/websocket-controller-factory.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/websockets/websocket.application.ts": [
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/rest/index.d.ts",
+        "./node_modules/@loopback/http-server/index.d.ts",
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@loopback/context/index.d.ts",
+        "./node_modules/@types/socket.io/index.d.ts",
+        "./src/controllers/websocket.controller.ts",
+        "./src/websockets/websocket.server.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/websockets/websocket.booter.ts": [
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/boot/index.d.ts",
+        "./src/websockets/websocket.application.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/application.ts": [
+        "./node_modules/@loopback/boot/index.d.ts",
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./node_modules/@loopback/rest-explorer/index.d.ts",
+        "./node_modules/@loopback/service-proxy/index.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./src/sequence.ts",
+        "./src/websockets/websocket.application.ts",
+        "./src/websockets/websocket.booter.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/index.ts": [
+        "./src/application.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/models/latitude-longitude.model.ts": [
         "./node_modules/@loopback/repository/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -5177,75 +5243,6 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/websockets/controllers/websocket.controller.ts": [
-        "./node_modules/@loopback/context/index.d.ts",
-        "./node_modules/@types/socket.io/index.d.ts",
-        "./src/websockets/decorators/websocket.decorator.ts",
-        "./node_modules/@loopback/repository/index.d.ts",
-        "./src/repositories/index.ts",
-        "./src/services/weather-api-service.service.ts",
-        "./src/models/index.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/websockets/controllers/index.ts": [
-        "./src/websockets/controllers/websocket.controller.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/websockets/websocket-controller-factory.ts": [
-        "./node_modules/@loopback/context/index.d.ts",
-        "./node_modules/@types/socket.io/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/websockets/websocket.server.ts": [
-        "./node_modules/@loopback/context/index.d.ts",
-        "./node_modules/@loopback/http-server/index.d.ts",
-        "./node_modules/@types/socket.io/index.d.ts",
-        "./src/websockets/decorators/websocket.decorator.ts",
-        "./src/websockets/websocket-controller-factory.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/websockets/websocket.application.ts": [
-        "./node_modules/@loopback/core/index.d.ts",
-        "./node_modules/@loopback/rest/index.d.ts",
-        "./node_modules/@loopback/http-server/index.d.ts",
-        "./node_modules/@types/express/index.d.ts",
-        "./node_modules/@types/node/path.d.ts",
-        "./node_modules/@loopback/context/index.d.ts",
-        "./node_modules/@types/socket.io/index.d.ts",
-        "./src/websockets/controllers/index.ts",
-        "./src/websockets/websocket.server.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/websockets/websocket.booter.ts": [
-        "./node_modules/@loopback/core/index.d.ts",
-        "./node_modules/@loopback/boot/index.d.ts",
-        "./src/websockets/websocket.application.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/application.ts": [
-        "./node_modules/@loopback/boot/index.d.ts",
-        "./node_modules/@loopback/core/index.d.ts",
-        "./node_modules/@loopback/repository/index.d.ts",
-        "./node_modules/@loopback/rest-explorer/index.d.ts",
-        "./node_modules/@loopback/service-proxy/index.d.ts",
-        "./node_modules/@types/node/path.d.ts",
-        "./src/sequence.ts",
-        "./src/websockets/websocket.application.ts",
-        "./src/websockets/websocket.booter.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/index.ts": [
-        "./src/application.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./src/controllers/weather-api.controller.ts": [
         "./node_modules/@loopback/context/index.d.ts",
         "./node_modules/@loopback/repository/index.d.ts",
@@ -5258,6 +5255,7 @@
       ],
       "./src/controllers/index.ts": [
         "./src/controllers/weather-api.controller.ts",
+        "./src/controllers/websocket.controller.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5284,6 +5282,14 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@types/debug/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/engine.io/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5542,6 +5548,11 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@types/socket.io-client/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/socket.io-parser/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -8635,6 +8646,41 @@
       "./src/websockets/decorators/websocket.decorator.ts": [
         "./node_modules/@loopback/context/index.d.ts"
       ],
+      "./src/controllers/websocket.controller.ts": [
+        "./node_modules/@types/socket.io/index.d.ts"
+      ],
+      "./src/websockets/websocket-controller-factory.ts": [
+        "./node_modules/@loopback/context/index.d.ts",
+        "./node_modules/@types/socket.io/index.d.ts"
+      ],
+      "./src/websockets/websocket.server.ts": [
+        "./node_modules/@types/socket.io/index.d.ts",
+        "./node_modules/@loopback/http-server/index.d.ts",
+        "./node_modules/@loopback/context/index.d.ts"
+      ],
+      "./src/websockets/websocket.application.ts": [
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/http-server/index.d.ts",
+        "./src/websockets/websocket.server.ts",
+        "./node_modules/@loopback/context/index.d.ts",
+        "./node_modules/@types/socket.io/index.d.ts",
+        "./node_modules/@loopback/rest/index.d.ts"
+      ],
+      "./src/websockets/websocket.booter.ts": [
+        "./src/websockets/websocket.application.ts",
+        "./node_modules/@loopback/boot/index.d.ts"
+      ],
+      "./src/application.ts": [
+        "./node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/boot/index.d.ts",
+        "./node_modules/@loopback/boot/node_modules/@loopback/core/index.d.ts",
+        "./node_modules/@loopback/service-proxy/index.d.ts",
+        "./node_modules/@loopback/repository/index.d.ts",
+        "./src/websockets/websocket.application.ts"
+      ],
+      "./src/index.ts": [
+        "./src/application.ts"
+      ],
       "./src/models/latitude-longitude.model.ts": [
         "./node_modules/@loopback/repository/index.d.ts"
       ],
@@ -8681,55 +8727,17 @@
         "./src/repositories/api.error.repository.ts"
       ],
       "./src/services/weather-api-service.service.ts": [
-        "./node_modules/@loopback/core/index.d.ts",
+        "./src/models/index.ts",
         "./src/datasources/index.ts",
-        "./src/models/index.ts"
-      ],
-      "./src/websockets/controllers/websocket.controller.ts": [
-        "./node_modules/@types/socket.io/index.d.ts",
-        "./src/repositories/index.ts"
-      ],
-      "./src/websockets/controllers/index.ts": [
-        "./src/websockets/controllers/websocket.controller.ts"
-      ],
-      "./src/websockets/websocket-controller-factory.ts": [
-        "./node_modules/@loopback/context/index.d.ts",
-        "./node_modules/@types/socket.io/index.d.ts"
-      ],
-      "./src/websockets/websocket.server.ts": [
-        "./node_modules/@types/socket.io/index.d.ts",
-        "./node_modules/@loopback/http-server/index.d.ts",
-        "./node_modules/@loopback/context/index.d.ts"
-      ],
-      "./src/websockets/websocket.application.ts": [
-        "./node_modules/@loopback/http-server/index.d.ts",
-        "./src/websockets/websocket.server.ts",
-        "./node_modules/@loopback/core/index.d.ts",
-        "./node_modules/@loopback/context/index.d.ts",
-        "./node_modules/@types/socket.io/index.d.ts",
-        "./node_modules/@loopback/rest/index.d.ts"
-      ],
-      "./src/websockets/websocket.booter.ts": [
-        "./src/websockets/websocket.application.ts",
-        "./node_modules/@loopback/boot/index.d.ts"
-      ],
-      "./src/application.ts": [
-        "./node_modules/@loopback/core/index.d.ts",
-        "./node_modules/@loopback/boot/index.d.ts",
-        "./node_modules/@loopback/boot/node_modules/@loopback/core/index.d.ts",
-        "./node_modules/@loopback/service-proxy/index.d.ts",
-        "./node_modules/@loopback/repository/index.d.ts",
-        "./src/websockets/websocket.application.ts"
-      ],
-      "./src/index.ts": [
-        "./src/application.ts"
+        "./node_modules/@loopback/core/index.d.ts"
       ],
       "./src/controllers/weather-api.controller.ts": [
-        "./src/repositories/index.ts",
-        "./src/services/weather-api-service.service.ts"
+        "./src/services/weather-api-service.service.ts",
+        "./src/repositories/index.ts"
       ],
       "./src/controllers/index.ts": [
-        "./src/controllers/weather-api.controller.ts"
+        "./src/controllers/weather-api.controller.ts",
+        "./src/controllers/websocket.controller.ts"
       ],
       "./src/observers/redis-data-filler.observer.ts": [
         "./node_modules/@loopback/core/index.d.ts",
@@ -8746,6 +8754,14 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@types/debug/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/engine.io/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9004,6 +9020,11 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@types/socket.io-client/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/socket.io-parser/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9472,6 +9493,11 @@
       "./node_modules/@loopback/http-server/index.d.ts",
       "./node_modules/@types/socket.io/index.d.ts",
       "./src/websockets/decorators/websocket.decorator.ts",
+      "./src/websockets/websocket-controller-factory.ts",
+      "./src/websockets/websocket.server.ts",
+      "./src/websockets/websocket.booter.ts",
+      "./src/application.ts",
+      "./src/index.ts",
       "./src/models/latitude-longitude.model.ts",
       "./src/models/weather-api.model.ts",
       "./src/models/api.error.model.ts",
@@ -9486,20 +9512,13 @@
       "./src/repositories/api.error.repository.ts",
       "./src/repositories/index.ts",
       "./src/services/weather-api-service.service.ts",
-      "./src/websockets/controllers/index.ts",
-      "./src/websockets/websocket-controller-factory.ts",
-      "./src/websockets/websocket.server.ts",
-      "./src/websockets/websocket.application.ts",
-      "./src/websockets/websocket.booter.ts",
-      "./src/application.ts",
-      "./src/index.ts",
       "./src/controllers/weather-api.controller.ts",
-      "./src/controllers/index.ts",
       "./src/observers/redis-data-filler.observer.ts",
       "./src/observers/index.ts",
       "./src/services/index.ts",
       "./node_modules/@types/cookiejar/index.d.ts",
       "./node_modules/@types/debug/index.d.ts",
+      "./node_modules/@types/engine.io/index.d.ts",
       "./node_modules/@types/eslint-visitor-keys/index.d.ts",
       "./node_modules/@types/fs-extra/index.d.ts",
       "./node_modules/@types/minimatch/index.d.ts",
@@ -9523,10 +9542,13 @@
       "./node_modules/@types/shot/index.d.ts",
       "./node_modules/@types/sinon/ts3.1/index.d.ts",
       "./node_modules/@types/socket.io-client/index.d.ts",
+      "./node_modules/@types/socket.io-parser/index.d.ts",
       "./node_modules/@types/superagent/index.d.ts",
       "./node_modules/@types/supertest/index.d.ts",
       "./node_modules/@types/type-is/index.d.ts",
-      "./src/websockets/controllers/websocket.controller.ts"
+      "./src/controllers/websocket.controller.ts",
+      "./src/controllers/index.ts",
+      "./src/websockets/websocket.application.ts"
     ]
   },
   "version": "3.6.3"

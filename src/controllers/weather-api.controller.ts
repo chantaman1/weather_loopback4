@@ -1,12 +1,13 @@
 import {inject} from '@loopback/context';
 import {repository} from '@loopback/repository';
+import {Request, RestBindings, get, param, ResponseObject} from '@loopback/rest';
 import {LatitudeLongitudeRepository, WeatherApiRepository, ApiErrorRepository} from '../repositories';
 import {WeatherApiService} from '../services/weather-api-service.service';
 import {LatitudeLongitude, ApiError} from '../models';
 
 export class WeatherApiController {
 
-  private CITIES = ['santiago', 'zurich', 'auckland', 'georgia', 'londres', 'sydney'];
+  private cities:string[] = ['santiago', 'zurich', 'auckland', 'georgia', 'londres', 'sydney'];
 
   constructor(
     @inject('services.WeatherApiService')
@@ -48,9 +49,14 @@ export class WeatherApiController {
 
   //this function update the weather from redis and also
   //help to send the updated weather to the web socket.
+  @get('/api', {
+    responses: {
+      '200': 'PING_RESPONSE',
+    },
+  })
   async updateWeather(){
     var weatherFromCities:any[] = [];
-    for (let city in this.CITIES){
+    for (let city of this.cities){
        let data = await this.repeatRequest( async () => this.getWeatherFromCity(city), async (err: any) => {
          if(err.message == "How unfortunate! The API Request Failed"){
            await this.apiErrorRepository.storeHash(new Date(), err);

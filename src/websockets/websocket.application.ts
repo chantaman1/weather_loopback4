@@ -5,10 +5,12 @@ import * as express from 'express';
 import * as path from 'path';
 import { Constructor } from "@loopback/context";
 import { Namespace } from "socket.io";
-import {WebSocketController} from './controllers';
+import {WebSocketController} from '../controllers/websocket.controller';
 import {WebSocketServer} from './websocket.server';
 
 // tslint:disable:no-any
+
+export {ApplicationConfig};
 
 export class WebSocketDemoApplication extends RestApplication {
   readonly httpServer: HttpServer;
